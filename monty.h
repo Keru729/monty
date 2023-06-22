@@ -25,7 +25,7 @@ typedef struct stack_s
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: The value
- * @file: pointer 
+ * @file: pointer
  * @content: content
  * @lifi: flag change stack <-> queue
  * Description: carries values through the program
