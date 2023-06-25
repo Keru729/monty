@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * f_pop - prints the top value
+ * f_pop - prints the top
  * @head: stack head
  * @counter: line_number
- * Return: no return vlue 
+ * Return: no return
 */
 void f_pop(stack_t **head, unsigned int counter)
 {
@@ -21,5 +21,3 @@ void f_pop(stack_t **head, unsigned int counter)
 	*head = h->next;
 	free(h);
 }
-Footer
-© 2023 GitHub, Inc. 
